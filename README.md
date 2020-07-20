@@ -24,10 +24,29 @@ The dataset has been collected and analyzed during a research collaboration of W
 Since the data is highly unbalanced I have used the Confusion Matrix to find out the how the model is working. After using different models including Random Forest, Logistic Regression, Decision Tree, SVM and found out that the best suited model is the RandomForestClassifier.
 
 ## Algorithm Performance
-
+I have used four classification algorithms namely Logistic Regression , Random Forest, SVM and Decision Tree. I have split the data into training and test set at a ratio of 70:30.
 | Model  | Accuracy Score | Precision Score |
 | --- | --- | --- |
 | Random Forest | 0.9996 | 0.9666 |
 | Logistic Regression | 0.9991 | 0.8396 |
 | SVM | 0.9983 | 0.8132  |
 | Decision Tree | 0.9992 | 0.7671 |
+
+## Result
+I have used F1 Score, Recall, Precision, Average score and Confusion Matrix as metrics to evaluate the classifiers as they give a better indication of the model compared to only accuracy. The Random Forest gives the best Recall score on the original dataset among the four algorithms.
+
+> Classification report of Random Forest
+```
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     85302
+           1       0.97      0.82      0.89       141
+
+    accuracy                           1.00     85443
+   macro avg       0.98      0.91      0.94     85443
+weighted avg       1.00      1.00      1.00     85443
+```
+
+> Confusion Matrix of Random Forest
+![confusion matrix](./Rawdata/cap2)
