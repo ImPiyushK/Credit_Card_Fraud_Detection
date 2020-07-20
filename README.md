@@ -53,4 +53,5 @@ weighted avg       1.00      1.00      1.00     85443
 ```
 
 > Confusion Matrix of Random Forest
+
 ![confusion matrix](./Rawdata/cap2.png)
