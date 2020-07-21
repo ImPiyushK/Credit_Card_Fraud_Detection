@@ -4,7 +4,7 @@ This repository contains a machine learning project for predicting whether a Cre
 ![Display Image](./Rawdata/cap1.jpg)
 
 ## Problem Description
-Credit card companies should be to recognize fraudulent credit card transactions so that customers are not charged for items that they did not purchase. We will use various predictive models to see how accurate they are in detecting whether a transaction is a normal payment or a fraud. As described in the dataset, the features are scaled and the names of the features are not shown due to privacy reasons. Nevertheless, we can still analyze some important aspects of the dataset.
+Credit card companies should be to recognize fraudulent credit card transactions so that customers are not charged for items that they did not purchase. We will use various predictive models to see how accurate they are in detecting whether a transaction is a normal payment or a fraud. As described in the dataset, the features are scaled and the names of the features are not shown due to privacy reasons. Nevertheless, we can still analyze some important aspects of the dataset. 
 
 
 ## File Description 
