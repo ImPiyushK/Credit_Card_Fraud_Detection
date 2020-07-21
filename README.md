@@ -39,7 +39,7 @@ I have used four classification algorithms namely Logistic Regression , Random F
 ## Result
 I have used F1 Score, Recall, Precision, Average score and Confusion Matrix as metrics to evaluate the classifiers as they give a better indication of the model compared to only accuracy. The Random Forest gives the best Recall score on the original dataset among the four algorithms.
 
-> Classification report of Random Forest
+> Classification report of Random Forest 
 ```
 Classification Report:
               precision    recall  f1-score   support
