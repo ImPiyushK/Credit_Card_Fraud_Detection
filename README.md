@@ -23,7 +23,7 @@ The dataset has been collected and analyzed during a research collaboration of W
 
 Since the data is highly unbalanced I have used the Confusion Matrix to find out the how the model is working. After using different models including Random Forest, Logistic Regression, Decision Tree, SVM and found out that the best suited model is the RandomForestClassifier.
 
-## Exploratory Data Analysis
+## ExploratoryData Analysis
 Correlation Matrix between different features of the dataset
 ![features](./Rawdata/cap3.png)
 
